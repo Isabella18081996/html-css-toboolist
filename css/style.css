@@ -8,6 +8,7 @@ header{
   height: 75px;
   background-color:white;
   margin-bottom: 30px;
+  margin-top: 0px;
 }
 
 body{
@@ -17,7 +18,7 @@ body{
 
 main{
   width: 60%;
-  height: 500px;
+  height: 520px;
   background-color: white;
   margin: auto;
   border-radius: 1%;
@@ -26,8 +27,8 @@ main{
 .container{
 
   margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-top: 50px;
   border-bottom: 50px;
 }
@@ -50,19 +51,28 @@ main{
 
 h1{
  display: inline;
+ vertical-align:50% ;
+ line-height: 20px;
+ font-size: 40px;
+ 
 }
 
 .check{
-  background-color: green;
+  width: 50px;
   border-radius: 50%;
-  width: 1px;
+  border-color: lightgreen;
+  border-width: 1px;
+  border-style: solid;
   text-align: center;
+  padding: 3px;
+  font-size: 9px;
+  color: lightgreen;
 }
 
 div{
-  margin-bottom: 25px;
-
+  margin-bottom: 20px;
   padding-left: 40px;
+  margin-top: 5px;
 }
 
 p{
@@ -72,4 +82,51 @@ p{
 
 hr{
   color: lightgray;
+}
+
+.triangolino{
+  font-size: 10px;
+}
+
+.cross{
+  width: 50px;
+  border-radius: 50%;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  padding: 3px;
+  font-size: 9px;
+  color: red;
+}
+
+.bottoni{
+color: white;
+border-radius: 10px;
+font-size: 10px;
+padding: 4px;
+}
+
+#editorial{
+  background-color:#6495ed;
+}
+
+#goals{
+  background-color: #8a2be2;
+}
+
+#recruiting{
+  background-color: #66cdaa;
+}
+
+#mobile{
+  background-color: orange;
+}
+
+#website{
+  background-color: palevioletred;
+}
+
+#sales{
+  background-color: #9acd32;
 }
