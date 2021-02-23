@@ -5,20 +5,26 @@
 
 
 header{
-  height: 75px;
+  height: 60px;
   background-color:white;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   margin-top: 0px;
+}
+
+.intestazione{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 body{
   background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
 main{
   width: 60%;
-  height: 520px;
+  height: 550px;
   background-color: white;
   margin: auto;
   border-radius: 1%;
@@ -29,6 +35,7 @@ main{
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 0px;
   border-top: 50px;
   border-bottom: 50px;
 }
@@ -39,8 +46,9 @@ main{
   width: auto;
   margin-bottom: 10px;
   background-color: gray;
-  padding: 10px;
+  padding: 7px;
   border-radius: 1%;
+  border: 1px;
 }
 
 .content{
@@ -58,15 +66,17 @@ h1{
 }
 
 .check{
-  width: 50px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   border-color: lightgreen;
   border-width: 1px;
   border-style: solid;
   text-align: center;
-  padding: 3px;
-  font-size: 9px;
+  padding: 4px;
+  font-size: 8px;
   color: lightgreen;
+  display: inline;
 }
 
 div{
@@ -77,11 +87,16 @@ div{
 
 p{
   font-size: 15px;
-  line-height: 35px;
+  line-height: 15;
+  margin-bottom: 10px;
 }
 
 hr{
   color: lightgray;
+}
+
+h4{
+margin-top: 30px;
 }
 
 .triangolino{
@@ -89,22 +104,25 @@ hr{
 }
 
 .cross{
-  width: 50px;
+  width: 15px;
   border-radius: 50%;
   border-color: red;
   border-width: 1px;
   border-style: solid;
   text-align: center;
-  padding: 3px;
-  font-size: 9px;
+  padding: 4px;
+  font-size: 8px;
   color: red;
+  display: inline;
 }
 
 .bottoni{
 color: white;
 border-radius: 10px;
 font-size: 10px;
-padding: 4px;
+padding: 6px;
+border: 1px;
+
 }
 
 #editorial{
@@ -129,4 +147,23 @@ padding: 4px;
 
 #sales{
   background-color: #9acd32;
+}
+
+#task{
+  color: white;
+  background-color:#6495ed;
+  border: 1px;
+  height: 35px;
+  border-radius: 10%;
+  width: 80px;
+}
+
+#section{
+  color: gray;
+  background-color: white;
+  height: 35px;
+  border-radius: 10%;
+  border: 1px solid gray;
+  line-height: 20px;
+  width: 100px;
 }
